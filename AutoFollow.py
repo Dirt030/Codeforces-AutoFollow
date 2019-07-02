@@ -28,7 +28,7 @@ try:
 except NoSuchElementException:
     pass
 except:
-    print("Unknown error occured, pls email me on 280538483@qq.com.\n")
+    print("Unknown error occured, plz email me on 280538483@qq.com.\n")
     browser.close()
 
 
@@ -44,7 +44,7 @@ try:
 except FileNotFoundError:
     print("Friends.csv lost or misnamed.\n")
 except:
-    print("Unknown error occured, pls email me on 280538483@qq.com.\n")
+    print("Unknown error occured, plz email me on 280538483@qq.com.\n")
 
 
 # In[4]:
@@ -65,7 +65,7 @@ for i in range(friends.shape[0]):
         print("Friend.csv is damaged.\n")
         browser.close()
     except:
-        print("Unknown error occured, pls email me on 280538483@qq.com.\n")
+        print("Unknown error occured, plz email me on 280538483@qq.com.\n")
         browser.close()
 
 
