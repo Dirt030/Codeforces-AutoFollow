@@ -40,7 +40,7 @@ except:
 import pandas as pd
 
 try:
-    friends = pd.read_csv("Friends.csv")
+    friends = pd.read_csv("Friends.csv",encoding="unicode_escape")
 except FileNotFoundError:
     print("Friends.csv lost or misnamed.\n")
 except:
